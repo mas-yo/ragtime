@@ -1,0 +1,17 @@
+[package]
+name = "examples"
+version = "0.0.0"
+publish = false
+edition = "2018"
+
+[dev-dependencies]
+ragtime = { path = "../ragtime" }
+tokio = { version = "1.4.0", features = ["full"] }
+tokio-util = { version = "0.6.5", features = ["full"] }
+tokio-stream = {version = "0.1.5" }
+bytes = {version="1.0.1"}
+pin-project = "1"
+
+[[example]]
+name = "ex1"
+path = "ex1.rs"

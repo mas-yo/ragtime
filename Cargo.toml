@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+  "ragtime",
+
+  # Internal
+  "examples",
+]
